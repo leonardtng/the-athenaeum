@@ -1,5 +1,5 @@
 ## ⭐  About
-A fun project to try out wallet connection with the Web3 library and fetching of NFT data. View it [here][1]
+A fun project to try out wallet connection with the Web3 library and fetching of NFT data. View it [here][1]!
 
 ## 🛠️  Key Technologies
 This project was deployed on AWS and built using:
