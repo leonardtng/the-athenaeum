@@ -27,12 +27,12 @@ const Landing: React.FC = () => {
   return (
     <Box
       sx={{
-        height: window.innerHeight,
+        minHeight: window.innerHeight,
         backgroundColor: theme.palette.background.default,
       }}
     >
       <Fade in={true} timeout={600}>
-        <Box sx={{ height: "100%" }}>
+        <Box sx={{ height: "100%", minHeight: window.innerHeight }}>
           <NavBar />
 
           {connected ? (
@@ -41,6 +41,8 @@ const Landing: React.FC = () => {
               spacing={{ xs: 2, md: 3 }}
               columns={{ xs: 4, sm: 9, md: 12, lg: 15, xl: 20 }}
               sx={{
+                height: "100%",
+                minHeight: window.innerHeight,
                 mt: {
                   xs: "80px",
                   md: "120px",
@@ -65,6 +67,7 @@ const Landing: React.FC = () => {
             <Box
               sx={{
                 height: "100%",
+                minHeight: window.innerHeight,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
